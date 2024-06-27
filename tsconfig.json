@@ -4,6 +4,7 @@
     "baseUrl": "."
   },
   "exclude": [
+    "**/.eslintrc.js",
     "./dist",
     "./.quasar",
     "./node_modules",
