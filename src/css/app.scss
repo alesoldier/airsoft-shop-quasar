@@ -1,1 +1,61 @@
 // app global css in SCSS form
+.login-container {
+  align-items: center;
+  background-color: gray;
+  background-image: url('../images/background/background-soft4.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 40px;
+}
+
+.login-subtitle {
+  color: white;
+}
+
+.form-field {
+  /* Width 100% and justify-end are required to align the items to the end so in case labels have different lengths they will always be vertically aligned */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.sing-in-container {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+.sign-in-section {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sing-in-image {
+  border-radius: 20px;
+  width: 150px;
+}
+
+.sing-in-title {
+  color: black;
+  font-size: 32px;
+  margin: 0;
+}
+
+.error-label {
+  display: none;
+}
